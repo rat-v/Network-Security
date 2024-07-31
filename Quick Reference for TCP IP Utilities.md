@@ -16,9 +16,6 @@ groups the user belongs to
 **systeminfo** - fundamental information about the machine, such as OS
 and BIOS versions, network cards, processor info **(Windows)**
 
-![image1](https://github.com/user-attachments/assets/7fb270b0-1497-47e8-bb21-68a59089cc93)
-
-
 **msinfo32** - GUI of 'systeminfo', you can also just type "system
 information" in the start menu to pull this up **(Windows)\
 **
