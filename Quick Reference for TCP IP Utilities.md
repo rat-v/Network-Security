@@ -6,6 +6,29 @@ and Linux systems
 Just as a reference to myself, adding /? in windows cmd lists all the possible
 switches for a command, \--help for Linux
 
+## IP and Network Information
+
+**ping** - pong
+
+**tracert** - follows the route that a packet goes through when pinging
+an IP address, useful to diagnose connection issues **(Windows)**
+
+**ipconfig** and **ipconfig /all** - to display basic and expanded
+network information on **Windows**
+
+**ip addr** or **ifconfig** for Linux
+
+**cat /etc/network/interfaces** to find detailed information about
+network interfaces
+
+**cat /etc/resolv.conf** for DNS information
+
+**Nslookup** - enters the nslookup tool which can be used to get
+information from the DNS server, i.e. resolving domain names to IP
+addresses. can also be entered seamlessly in command prompt instead of
+separately entering nslookup to enter the tool
+
+
 ## Computer Information
 
 **whoami** - the name of the user logged in, can add /groups to see all
@@ -31,27 +54,3 @@ Same thing with /proc/meminfo
 
 **net** - a very versatile command used, can manage users, groups,
 network connections, services, etc. (i.e. net user Guest /active:no)
-
-## IP and Network Information
-
-**ping** - pong
-
-**tracert** - follows the route that a packet goes through when pinging
-an IP address, useful to diagnose connection issues **(Windows)**
-
-**ipconfig** and **ipconfig /all** - to display basic and expanded
-network information on **Windows**
-
-**ip addr** or **ifconfig** for Linux
-
-**cat /etc/network/interfaces** to find detailed information about
-network interfaces
-
-**cat /etc/resolv.conf** for DNS information
-
-**Nslookup** - enters the nslookup tool which can be used to get
-information from the DNS server, i.e. resolving domain names to IP
-addresses. can also be entered seamlessly in command prompt instead of
-separately entering nslookup to enter the tool
-
-## 
