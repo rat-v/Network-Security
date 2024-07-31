@@ -17,7 +17,7 @@ groups the user belongs to
 and BIOS versions, network cards, processor info **(Windows)**
 
 **msinfo32** - GUI of 'systeminfo', you can also just type "system
-information" in the start menu to pull this up **(Windows)\**
+information" in the start menu to pull this up **(Windows)**
 
 **For Linux**, some system information can be found by "opening" a file
 with the command line with 'cat'
