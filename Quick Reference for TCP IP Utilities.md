@@ -1,11 +1,12 @@
+## Objective
 In this project, I will learn about and practice executing common TCP/IP
 commands to display important system and network information on Windows
 and Linux systems
 
-Just to reference, adding /? in windows cmd lists all the possible
+Just as a reference to myself, adding /? in windows cmd lists all the possible
 switches for a command, \--help for Linux
 
-### Computer Information
+## Computer Information
 
 **whoami** - the name of the user logged in, can add /groups to see all
 groups the user belongs to
@@ -15,8 +16,8 @@ groups the user belongs to
 **systeminfo** - fundamental information about the machine, such as OS
 and BIOS versions, network cards, processor info **(Windows)**
 
-![](output\TCP_IP Utilities/media/image1.png){width="7.71875in"
-height="4.075260279965004in"}
+![image1](https://github.com/user-attachments/assets/7fb270b0-1497-47e8-bb21-68a59089cc93)
+
 
 **msinfo32** - GUI of 'systeminfo', you can also just type "system
 information" in the start menu to pull this up **(Windows)\
@@ -29,13 +30,13 @@ For example, processor information can be found in /proc/cpuinfo, so
 'cat /proc/cpuinfo' would list the file contents in the command line.
 Same thing with /proc/meminfo
 
-![](output\TCP_IP Utilities/media/image2.png){width="6.588542213473316in"
-height="3.479573490813648in"}
+![image2](https://github.com/user-attachments/assets/de49178f-2754-47bb-902e-d4c4e60a97d2)
+
 
 **net** - a very versatile command used, can manage users, groups,
 network connections, services, etc. (i.e. net user Guest /active:no)
 
-### IP and Network Information
+## IP and Network Information
 
 **ping** - pong
 
@@ -57,4 +58,4 @@ information from the DNS server, i.e. resolving domain names to IP
 addresses. can also be entered seamlessly in command prompt instead of
 separately entering nslookup to enter the tool
 
-### 
+## 
